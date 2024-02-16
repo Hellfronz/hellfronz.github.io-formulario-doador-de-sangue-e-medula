@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica', serif;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container h1 {
+    color: rgb(250, 2, 2);
+    font-weight: 500;
+    padding: 10px;
+    background-color: #0a8b8fa8;
+    color: #fff;
+    box-shadow: darkblue 5px 5px;
+    margin: 10px;
+    text-align: center;
+    width: 97%;
+}
+
+
+.cad-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: darkblue 5px 5px;
+    margin: 20px;
+    background-image: url(/assets/img/vecteezy_set-of-a-blood-donation-bag-with-tube-shaped-as-a-heart_4745288.jpg);
+    background-size: 100%;
+}
+
+.info-box {
+    padding: 50px;
+    background-color: rgba(10, 139, 143, 0.658);
+    flex-basis: auto;
+    flex-grow: 1;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: darkblue 5px 5px;
+    margin: 10px;
+}
+
+#men, #fem {
+    display: inline-block;
+    
+}
+
+.social-box {
+    padding: 40px;
+    flex-basis: auto;
+    flex-grow: 1;
+    height: 100%;
+    
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid aliceblue;
+    outline: none;
+    color: black;
+    font-size: 12px;
+    background: transparent;
+}
+
+::placeholder{
+    color: aliceblue;
+}
+
+input [type=checkbox] {
+    margin-top: 30px;
+}
+
+.info-box label{
+    font-size: 14px;
+}
+
+.info-box button{
+    width: 100%;
+    background:aliceblue;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: darkblue 5px 5px;
+
+}
+
+.info-box button:hover{
+    font-weight: 500;
+    background: darkblue;
+    color: aliceblue;
+    box-shadow: aliceblue 5px 5px;
+}
+.info-box button span{
+display: inline-block;
+width: 0px;
+overflow: hidden;
+transition: width 0.5s;
+
+}
+.info-box button:hover span{
+    width: 30px;
+}
+
+.social-box a{
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    max-width: 20px 0;
+    min-width: 250px ;
+    color: aliceblue;
+    font: 14px;
+    padding: 15px 30px;
+    text-decoration: none;
+    background:   lightblue;
+    box-shadow: darkblue 5px 5px;
+}
+
+.social-box img {
+    height: 20px;
+    font-weight: 20px;
+}
+
+.social-box a:hover{
+    font-weight: 500;
+    background: darkblue;
+    color: aliceblue;
+}
+
+input[type="text" i],
+input[type="date" i],
+input[type="email" i],
+input[type="tel" i]  {
+    padding-block: 1px;
+    padding-inline: 2px;
+    border: solid 1px #fff;
+    background-color: lightblue;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+input[type="text" i]:hover,
+input[type="email" i]:hover,
+input[type="date" i]:hover,
+input[type="tel" i]:hover {
+    font-weight: 500;
+    background: aliceblue;
+    border: solid 2px darkblue;
+}
+
+.genero_id,
+.doador_sangue,
+.doador_medula {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.genero_fem,
+.doador_sangue_nao,
+.doador_medula_nao {
+    margin-left: 10px;
+}
+
+.contato_titulo {
+    display: flex;
+}
+
+#ddd-regiao {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width:  40px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#phone {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    text-align: center;
+}

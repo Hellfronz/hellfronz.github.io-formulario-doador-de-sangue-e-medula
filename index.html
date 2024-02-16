@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulário de Doador de Sangue e Medula</title>
+</head>
+<body>
+    <div class="container">
+        
+        
+
+        <div class="cad-box">
+            
+            <h1>Cadastro de Doador de Sangue e Medula</h1>
+            <div class="info-box">
+                <form action="">
+
+                    <div class="name">
+                        <label for="">
+                            Nome Completo 
+                            <input type="text" placeholder="Digite seu Nome" class="input-box" required>
+                        </label>
+                    </div>
+
+                    <div class="birth">
+                        <label for="">
+                        Data de Nascimento
+                        <input type="date" placeholder="date"  class="input-box" required>
+                        </label>
+                    </div>
+
+                    <div class="genero">
+                        <label for="">
+                            Sexo
+                            <div class="genero_id">
+                                <div class="genero_masc">
+                                    <input type="radio" name="genero" id="men">
+                                    <label for="sexo">Masc.</label>
+                                </div>
+                                <div class="genero_fem">
+                                    <input type="radio" name="genero" id="fem">
+                                    <label for="sexo">Fem.</label>
+                                </div> 
+                            </div>
+                        </label>
+                    </div> 
+
+                    <div class="mail">
+                        <label for="">
+                            E-mail
+                            <div class="e-mail">
+                                <input type="email" placeholder=" Digite aqui seu e-mail" name="e-mail" required>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="fone-contato">
+                        <label for=""> Telefone</label>
+                        <div class="contato_titulo">
+                            <div class="ddd-regiao">
+                                <label for="">
+                                    <input type="tel" placeholder=" DDD " id="ddd-regiao" name="ddd" maxlength="2" pattern="\d{2}" required>
+                                </label>
+                            </div>
+                            <div class="phone">
+                                <label for="">
+                                    <input type="tel" placeholder="  Digite aqui seu telefone" id="tel" name="telefone" required>
+                                </label>
+                            </div>
+                        </div>                      
+                    </div>
+
+                    <div class="doador">
+                        <label for="">
+                            Doador de Sangue <br>
+                            <div class="doador_sangue">
+                                <div class="doador_sangue_sim">
+                                    <input type="radio" name="doador" id="sim">
+                                    <label for="doador_sim">Sim</label>
+                                </div>
+                                <div class="doador_sangue_nao">
+                                    <input type="radio" name="doador" id="nao">
+                                    <label for="doador_nao">Não</label>
+                                </div> 
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="doador">
+                        <label for="">
+                            Doador Medula Óssea <br>
+                            <div class="doador_medula">
+                                <div class="doador_medula_sim">
+                                    <input type="radio" name="doador_medula" id="sim">
+                                    <label for="doador_medula_sim">Sim</label>
+                                </div>
+                                <div class="doador_medula_nao">
+                                    <input type="radio" name="doador_medula" id="nao">
+                                    <label for="doador_medula_nao">Não</label>
+                                </div> 
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="tipagem">
+                        <label for="">
+                            Tipo Sanguíneo
+                            <div class="tipo_Sangue">
+                                <div class="Sangue_A+">
+                                    <input type="radio" name="tipo_Sangue" id="SG_A+">
+                                    <label for="Sangue_A_pos">A+</label>
+                                </div>
+                                <div class="Sangue_A-">
+                                    <input type="radio" name="tipo_Sangue" id="SG_A-">
+                                    <label for="Sangue_A_neg">A-</label>
+                                </div>
+                                <div class="Sangue_B+">
+                                    <input type="radio" name="tipo_Sangue" id="SG_B+">
+                                    <label for="Sangue_B_pos">B+</label>
+                                </div>
+                                <div class="Sangue_B-">
+                                    <input type="radio" name="tipo_Sangue" id="SG_B-">
+                                    <label for="Sangue_B_neg">B-</label>
+                                </div>
+                                <div class="Sangue_AB+">
+                                    <input type="radio" name="tipo_Sangue" id="SG_AB+">
+                                    <label for="Sangue_AB_pos">AB+</label>
+                                </div>
+                                <div class="Sangue_AB-">
+                                    <input type="radio" name="tipo_Sangue" id="SG_AB-">
+                                    <label for="Sangue_AB_neg">AB-</label>
+                                </div>
+                                <div class="Sangue_O+">
+                                    <input type="radio" name="tipo_Sangue" id="SG_O+">
+                                    <label for="Sangue_O_pos">O+</label>
+                                </div>
+                                <div class="Sangue_O-">
+                                    <input type="radio" name="tipo_Sangue" id="SG_O-">
+                                    <label for="Sangue_O_neg">O-</label>
+                                </div>
+
+                            </div>
+                        </label>
+                    </div>
+
+                    <button type="submit">
+                        Cadastrar
+                        <span> &#x27f6;</span>
+                    </button>
+                    
+                </form>
+            </div>
+            <div>
+                
+            </div>
+            
+            <div class="social-box" >
+        
+                <div class="social-box-a">
+                    <a href="https://www.facebook.com/login.php/" class="face-link" ><img src="assets/img/Facebook_f_logo_(2021).svg.png" alt=""></a>
+                    <a href="https://twitter.com/i/flow/login" class="twitter-link"><img src="assets/img/X_logo_2023.svg.png" alt=""></a>
+                    <a href="https://accounts.google.com/v3/signin/identifier?hl=pt-br&ifkv=ASKXGp3G72F0VclyCsfzr81IkdmdpzNuFel-xSKHw9yfK3XlBZslUcj-4Fl0lyfOqlsIrD-8n4IKSg&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S335831166%3A1705130209947164&theme=glif" class="google-link"><img src="assets/img/Google__G__logo.svg.png" alt=""></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
